@@ -4,3 +4,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.carousel-item img{
+    filter: brightness(0.4);
+    height: 90vh;
+}
+
+.carousel-caption{
+    top: 26%;
+}
