@@ -16,3 +16,57 @@ body{
 .course-btn{
     margin-left: 42%;
 }
+.hide-btn, .hidden{
+    display: none;
+}
+.register-part{
+    padding: 3%;
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel-item{
+        height: 70vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .course-pic{
+        width: 100%;
+    }
+    .hide-btn{
+        margin-left: 36%;
+        display: inline;
+    }
+    .course-btn,
+    .register{
+       display: none;
+    }
+    .row.align-items-center.register-part {
+        flex-direction: column;
+    }
+    .join{
+        padding: 0;
+    }
+    .register-part{
+        padding: 10px 0px;
+    }
+    .hidden{
+        display: inline;
+    }
+    .company{
+        margin-bottom: 8%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
