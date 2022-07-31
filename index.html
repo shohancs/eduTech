@@ -108,7 +108,7 @@
           <h1 class="fw-bold text-center">Discover Our Popular<br> Courses</h1>
           <p class="text-secondary text-center pb-3">Educational technology is the combined use of computer hardware, software, and educational theory<br> and practice to facilitate learning. When referred to with its abbreviation, edtech, it is often referring to the industry<br> of companies that create educational technology.</p>
 
-          <div class="card mx-2 my-2 p-0" style="max-width: 540px;">
+          <div class="card mx-2 my-2 p-0"  >
             <div class="row g-0 align-items-center">
               <div class="col-md-4">
                 <img src="images/course/course-1.png" class="img-fluid course-pic" alt="...">
@@ -123,7 +123,7 @@
             </div>
           </div>
 
-          <div class="card mx-2 my-2 p-0" style="max-width: 540px;">
+          <div class="card mx-2 my-2 p-0" >
             <div class="row g-0 align-items-center">
               <div class="col-md-4">
                 <img src="images/course/course-2.png" class="img-fluid course-pic" alt="...">
@@ -137,7 +137,7 @@
               </div>
             </div>
           </div>
-          <div class="card mx-2 my-2 p-0" style="max-width: 540px;">
+          <div class="card mx-2 my-2 p-0" >
             <div class="row g-0 align-items-center">
               <div class="col-md-4">
                 <img src="images/course/course-3.png" class="img-fluid course-pic" alt="...">
@@ -152,7 +152,7 @@
             </div>
           </div>
 
-          <div class="card mx-2 my-2 p-0" style="max-width: 540px;">
+          <div class="card mx-2 my-2 p-0">
             <div class="row g-0 align-items-center">
               <div class="col-md-4">
                 <img src="images/course/course-4.png" class="img-fluid course-pic" alt="...">
@@ -166,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="card mx-2 my-2 p-0" style="max-width: 540px;">
+          <div class="card mx-2 my-2 p-0">
             <div class="row g-0 align-items-center">
               <div class="col-md-4">
                 <img src="images/course/course-5.png" class="img-fluid course-pic" alt="...">
@@ -181,7 +181,7 @@
             </div>
           </div>
 
-          <div class="card mx-2 my-2 p-0" style="max-width: 540px;">
+          <div class="card mx-2 my-2 p-0" >
             <div class="row g-0 align-items-center">
               <div class="col-md-4">
                 <img src="images/course/course-6.png" class="img-fluid course-pic" alt="...">
@@ -241,7 +241,42 @@
           </div>
           <div class="col-5 join">
             <a href="" class="btn btn-outline-primary text-primary bg-light float-end hidden">Registration</a>
-            <a href="" class="btn btn-outline-primary text-primary bg-light float-end register">Register Now</a>
+            <!-- Modal Start -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary float-end register text-primary bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register Here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name..">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Present Address</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal end -->
           </div>
         </div>
       </section>
@@ -252,7 +287,7 @@
         <h1 class="fw-bold pb-3">Meet Our Successfull<br> Students</h1>
         <p class="text-secondary">The true measure of student success is how well students are prepared to<br> accomplish their current and future academic,<br> personal, and professional goals.</p>
 
-        <div class="row row-cols-1 row-cols-md-4 g-4 py-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 py-5">
           <div class="col">
             <div class="card">
               <img src="images/student/student-1.png" class="card-img-top" alt="...">
@@ -355,7 +390,7 @@
       <!-- Ask-Question part end -->
 
       <!-- Company-name part start -->
-      <section class="container py-5">
+      <section class="container py-5 all-company">
         <h1 class="fw-bold pb-3 text-center">Trusted by over 800+ companies</h1>
         
         <div class="row align-items-center py-5 company-name">

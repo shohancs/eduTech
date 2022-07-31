@@ -22,6 +22,9 @@ body{
 .register-part{
     padding: 3%;
 }
+.card.mx-2.my-2.p-0 {
+    width: 540px;
+}
 
 @media only screen and (max-width: 576px) {
     .carousel-item{
@@ -58,15 +61,27 @@ body{
     }
     .company{
         margin-bottom: 8%;
+    }    
+    .all-company{
+        display: none;
     }
 
-    
+    .card.mx-2.my-2.p-0 {
+        width: 95%;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-   
+    .all-company{
+        display: none;
+    }
+    .card.mx-2.my-2.p-0 {
+        width: 95%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    
+    .all-company{
+        display: none;
+    }
 }
